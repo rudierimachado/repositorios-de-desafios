@@ -1,0 +1,96 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  
+}
+
+.titulo {
+  text-align: center;
+}
+
+/* Estilo da seção de projetos */
+section {
+  margin: 50px auto;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+article {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: calc(33.33% - 30px);
+}
+
+article:last-child {
+  margin-right: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  background-color: #444;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
